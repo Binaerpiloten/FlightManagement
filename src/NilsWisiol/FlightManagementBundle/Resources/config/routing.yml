@@ -1,0 +1,11 @@
+nils_wisiol_flight_management_homepage:
+    pattern:  /
+    defaults: { _controller: NilsWisiolFlightManagementBundle:Default:index }
+
+flights:
+    type: rest
+    resource: NilsWisiol\FlightManagementBundle\Controller\FlightsController
+
+captains:
+    type: rest
+    resource: NilsWisiol\FlightManagementBundle\Controller\CaptainsController    

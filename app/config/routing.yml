@@ -1,0 +1,7 @@
+nils_wisiol_flight_management:
+    resource: "@NilsWisiolFlightManagementBundle/Resources/config/routing.yml"
+    prefix:   /
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc

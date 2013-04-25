@@ -1,0 +1,7 @@
+parameters:
+#    nils_wisiol_flight_management.example.class: NilsWisiol\FlightManagementBundle\Example
+
+services:
+#    nils_wisiol_flight_management.example:
+#        class: %nils_wisiol_flight_management.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
