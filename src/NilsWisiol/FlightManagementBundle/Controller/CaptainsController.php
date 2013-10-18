@@ -30,7 +30,7 @@ class CaptainsController extends FOSRestController
 	 * GET /captains/3
 	 */
 	public function getCaptainAction($slug) {
-		return $this->loadFlight($slug);		
+		return $this->loadCaptain($slug);		
 	}
 	
 	public function postCaptainsAction(Request $request) {

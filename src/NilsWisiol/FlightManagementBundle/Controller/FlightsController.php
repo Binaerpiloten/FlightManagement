@@ -70,6 +70,22 @@ class FlightsController extends FOSRestController {
 	public function postFlightsAction(Request $request) {
 		return $this->processFlightForm(new Flight(), true);
 	}
+	
+	/**
+	 * Creates a new flight.
+	 *
+	 * @ApiDoc(
+	 *   resource=true,
+	 *   description="Creates a new flight.",
+	 *   statusCodes={
+	 *     201="Successfully created",
+	 *   },
+	 *   output="NilsWisiol\FlightManagementBundle\Form\FlightType"
+	 * )
+	 */
+	public function putFlightsAction(Request $request) {
+		return $this->processFlightForm(new Flight(), true);
+	}	
 
 	/**
 	 * Updates a flight.
